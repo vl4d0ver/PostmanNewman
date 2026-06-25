@@ -18,4 +18,4 @@ jobs:
       - name: Run Postman Collection
         uses: postmanlabs/postman-cli-action@v1
         with:
-          command: 'collection run "Testwork_dummyjson_collection.json" --environment "TestworkEnv.json"'
+          command: 'collection run Testwork_dummyjson_collection.json --environment TestworkEnv.json'
